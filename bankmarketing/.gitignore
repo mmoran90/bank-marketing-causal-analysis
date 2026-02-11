@@ -1,0 +1,29 @@
+# Virtual environments
+bankmarketing/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+__MACOSX/
+
+# VS Code
+.vscode/
+
+# Data (ignore all raw and processed data)
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# logs
+*.log
